@@ -3,7 +3,11 @@
 
 class Person {
     public:
+        // constructor
         Person(std::string n, Birthday b);
+        // destructor
+        ~Person();
+        // class method
         void printInfo();
         
     private:

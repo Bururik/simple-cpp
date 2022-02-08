@@ -11,6 +11,12 @@ Person::Person(std::string n, Birthday b)
 
 }
 
+// Typically a class' destructor is named after the class itself except with a ~ at the front
+Person::~Person()
+{
+
+}
+
 // the class' only function is defined here
 void Person::printInfo()
 {

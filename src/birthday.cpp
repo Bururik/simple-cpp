@@ -10,6 +10,12 @@ Birthday::Birthday(int m, int d, int y)
 
 }
 
+// Typically a class' destructor is named after the class itself except with a ~ at the front
+Birthday::~Birthday()
+{
+
+}
+
 // the class' only function is defined here
 void Birthday::printDate()
 {

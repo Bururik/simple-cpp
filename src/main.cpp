@@ -10,7 +10,7 @@
 #include "person.h"
 
 int main() {
-    // initialized object Birthday as bd
+    // initialized object Birthday as bd with data
     Birthday bd(2, 21, 1985);
 
     // initialized object Person and 
